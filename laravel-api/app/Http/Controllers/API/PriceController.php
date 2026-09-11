@@ -35,7 +35,7 @@ class PriceController extends Controller
             'slug'  => 'all',
             'name'  => 'All Items',
             'urdu'  => 'تمام اشیاء',
-            'icon'  => '🟩',
+            'icon'  => '🛒',
             'count' => PriceItem::where('is_active', true)->count(),
         ]]);
 
